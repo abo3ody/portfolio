@@ -5,11 +5,13 @@ import SingleProject from "./SingleProject";
 function Projects() {
    return (
       <Wrapper>
-         <h1 className="section_title">all projects</h1>
-         <div className="projects">
-            {projects.map((project) => {
-               return <SingleProject key={project.id} {...project} />;
-            })}
+         <div className="container">
+            <h1 className="section_title">all projects</h1>
+            <div className="projects">
+               {projects.map((project) => {
+                  return <SingleProject key={project.id} {...project} />;
+               })}
+            </div>
          </div>
       </Wrapper>
    );
@@ -18,9 +20,15 @@ function Projects() {
 export default Projects;
 
 const Wrapper = styled.section`
-   width: 90vw;
-   max-width: 1182px;
-   margin: 2rem auto;
+   background: #dae2ec;
+
+   height: 100vh;
+   .container {
+      width: 90vw;
+      max-width: 1182px;
+      margin: 2rem auto;
+      padding: 2rem 0;
+   }
    .section_title {
       text-align: center;
       font-size: 3rem;

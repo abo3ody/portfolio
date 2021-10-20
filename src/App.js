@@ -1,8 +1,9 @@
-import Projects from "./components/Projects";
+import { Header, Projects } from "./components";
 
 function App() {
    return (
       <div className="App">
+         <Header />
          <Projects />
       </div>
    );
