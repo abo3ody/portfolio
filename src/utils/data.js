@@ -24,7 +24,7 @@ const projects = [
       id: 3,
       name: "weather app",
       url: "https://weather-app-kablo.netlify.app/",
-      img: searchBooksImg,
+      img: weatherAppImg,
       techUsed: ["html", "css", "js", "react"],
       sourceCodeUrl: "https://github.com/abo3ody/weather-app",
       desc: "website for check the weather in the world using openweathermap api",
