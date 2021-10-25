@@ -95,6 +95,7 @@ const Wrapper = styled.article`
       span {
          color: #2680c0;
          margin-right: 0.5rem;
+         white-space: nowrap;
       }
    }
    .technologies {
@@ -107,7 +108,6 @@ const Wrapper = styled.article`
          padding: 0.24rem 0.56rem;
          border-radius: 0.375rem;
          margin-right: 0.4rem;
-         margin-bottom: 0.4rem;
       }
    }
    .btns {
@@ -145,6 +145,9 @@ const Wrapper = styled.article`
       .card_body {
          width: 80%;
          margin-left: 0;
+      }
+      .tech {
+         margin-bottom: 0.4rem;
       }
       .btns {
          text-align: center;

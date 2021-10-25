@@ -21,8 +21,6 @@ export default Projects;
 
 const Wrapper = styled.section`
    background: #dae2ec;
-
-   height: 100vh;
    .container {
       width: 90vw;
       max-width: 1182px;

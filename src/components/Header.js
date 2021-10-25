@@ -34,6 +34,7 @@ const Wrapper = styled.header`
       border-radius: 50%;
       border: 0.5rem solid #2680c0;
       margin-bottom: 1rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
    }
    .name {
       font-size: 2.5rem;
