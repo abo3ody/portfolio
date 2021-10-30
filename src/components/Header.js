@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
-import personlImg from "../assets/images/IMG_1060.JPEG";
+import personlImg from "../assets/images/aslan.jpg";
 function Header() {
    const [age, setAge] = useState(0);
 
@@ -30,11 +30,12 @@ const Wrapper = styled.header`
    img {
       width: 15rem;
       height: 15rem;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: 50%;
       border: 0.5rem solid #2680c0;
       margin-bottom: 1rem;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      background: #fff;
    }
    .name {
       font-size: 2.5rem;
